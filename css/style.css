@@ -1,0 +1,296 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+	
+.main_container{
+		margin: 0 auto;
+		width: 100%;
+		height: 100%;
+}
+.header_section{
+	width: 100%;
+	height: 100%;
+	padding: 10px 0px;
+}
+.sub_container{
+		margin: 10px auto;
+		width: 760px;
+		border-radius: 5px;
+		padding: 10px;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.container_section{
+	display: flex;
+	gap: 10px;
+}
+
+.header_section ul{
+		list-style: none;
+		display: flex;
+		gap: 15px;
+		
+}
+	
+	/* IMAGE SECTION */
+	
+.image_container{
+	width: 50%;
+	height: 100%;
+	padding: 4px;
+	border-radius: 8px;
+	overflow: hidden;
+	display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image_one img{
+	width: 100%;
+	height: 100%;
+    border-radius: 8px;
+}
+
+.image_two{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	gap: 10px;
+}
+
+.two_one{
+	width: 90%;
+}
+
+.two_two{
+	width: 90%;
+}
+
+.image_two img{
+	width: 100%;
+	height: 100%;
+    border-radius: 8px;
+	
+}
+
+.content_container{
+	width: 50%;
+	padding: 4px;
+	display: flex;
+    flex-direction: column;
+    height: 714px;
+    justify-content: space-evenly;
+}
+
+	/* CONTENT SECTION */
+	
+.star_section{
+	display: flex;
+	gap: 20px;
+}
+
+.star_section .section_one{
+	display: flex;
+	align-items: baseline;
+    gap: 8px;
+}
+	
+.star_section .section_two{
+	display: flex;
+    align-items: center;
+}
+
+.star_section .section_two a{
+	display: flex;
+	gap: 16px;
+	color: #1E88E5;
+	text-decoration: none;
+}
+
+.basic_section{
+	display: flex;
+    justify-content: space-between;
+	font-weight: bold;
+}
+
+.color_section{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.color_icon{
+	display: flex;
+	gap: 8px;
+	position: relative;
+}
+
+.color_icon .circle_one{
+	height: 16px;
+	width: 16px;
+	background-color: black;
+	border: 2px solid white;
+	border-radius: 50%;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+
+.color_icon .circle_two{
+	height: 20px;
+	width: 20px;
+	background-color: lightgray;
+	border: 1px solid gray;
+	border-radius: 50%;
+}
+
+.color_icon .circle_three{
+	height: 20px;
+	width: 20px;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+.box_above{
+	display: flex;
+	justify-content: space-between;
+}
+
+.box_above a{
+	text-decoration: none;
+	color:#1E88E5;
+}
+
+.box_section{
+	width: 100%;
+	height: 42px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	overflow: hidden;
+}
+
+.box_sec1{
+	display: flex;
+	width: 100%;
+	gap: 9px;
+	position: relative;
+	
+}
+
+.box_section .box_one p{
+	height: 20px;
+	width: 36px;
+	border: 1px solid gray;
+	text-align: center;
+	padding: 8px;
+	border-radius: 6px;
+}
+
+.box_section .box_two p{
+	height: 20px;
+	width: 36px;
+	border: 1px solid gray;
+	text-align: center;
+	padding: 8px;
+	border-radius: 6px;
+	
+}
+
+.box_section .box_three p{
+	height: 22px;
+	width: 36px;
+	/* border: 1px solid; */
+	text-align: center;
+	padding: 8px;
+	border-radius: 6px;
+	color: white;
+	background-color: #1E88E5 ;
+	/* font-weight: bold; */
+}
+
+.box_section .box_four p{
+	height: 20px;
+	width: 36px;
+	border: 1px solid gray;
+	text-align: center;
+	padding: 8px;
+	border-radius: 6px;
+}
+
+.box_section .box_five p{
+	height: 20px;
+	width: 36px;
+	border: 1px solid gray;
+	text-align: center;
+	padding: 8px;
+	border-radius: 6px;
+}
+
+.box_section .box_six p{
+	height: 20px;
+	width: 36px;
+	border: 1px solid gray;
+	text-align: center;
+	padding: 8px;
+	border-radius: 6px;
+	color: gray;
+}
+
+.button_section button{
+	width: 100%;
+	height: 30px;
+	color: white;
+	background-color: #1E88E5;
+	border: none;
+	border-radius: 6px;
+}
+
+.description_sec p{
+	color: gray;
+	padding: 6px 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.list_section ul{
+	padding: 0 18px;
+	color: #707171;
+	font-family: 'Roboto', sans-serif;
+}
+
+.icon_container{
+	width: 100%;
+	height: 106px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.icon_one{
+	width: 40%;
+	height: 100%;
+	padding: 4px;
+	border: 1px solid lightgray;
+	background-color: #F2F3F4;
+	color: gray;
+	text-align: center;
+	border-radius: 6px;
+	
+}
+
+.icon_two{
+	width: 40%;
+	height: 100%;
+	padding: 4px;
+	border: 1px solid lightgray;
+	background-color: #F2F3F4;
+	color: gray;
+	text-align: center;
+	border-radius: 6px;
+}
+
+
+
